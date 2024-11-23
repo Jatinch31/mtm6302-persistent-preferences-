@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalized Web Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Persistent Preferences </h1>
+  </header>
+
+  <main>
+    <section class="preferences-panel">
+      <h2>Preferences Panel</h2>
+      <div class="preferences-group">
+        <label for="theme-select">Theme:</label>
+        <select id="theme-select">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="vibrant">Vibrant</option>
+        </select>
+      </div>
+
+      <div class="preferences-group">
+        <label for="list-style-select">List Style:</label>
+        <select id="list-style-select">
+          <option value="bulleted">Bulleted</option>
+          <option value="numbered">Numbered</option>
+          <option value="none">No Style</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="list-section">
+      <h2>Your To-Do List</h2>
+      <ul id="dynamic-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by [Jatin]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
